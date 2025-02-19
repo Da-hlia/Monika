@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biography - Videos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif;
+      background: url('images/friend-background.jpg') no-repeat center center fixed;
+      background-size: cover; }
+    .side-nav { position: fixed; right: 0; top: 0; width: 220px; height: 100%;
+      background: rgba(255,255,255,0.8); overflow-y: auto; padding-top: 20px; }
+    .side-nav ul { list-style: none; padding: 0; }
+    .side-nav li { margin: 10px 0; position: relative; }
+    .side-nav a { text-decoration: none; color: #333; padding: 10px 15px; display: block; }
+    .dropdown-content { display: none; position: absolute; right: 220px; top: 0;
+      background: rgba(255,255,255,0.9); min-width: 200px; z-index: 100; }
+    .dropdown-content a { padding: 8px 12px; }
+    .dropdown:hover .dropdown-content { display: block; }
+    .content { margin: 20px; padding: 20px; background: rgba(255,255,255,0.8);
+      border-radius: 5px; max-width: 800px; }
+    .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+    .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="side-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="biography-about.html">Biography</a>
+        <div class="dropdown-content">
+          <a href="biography-about.html">About Me</a>
+          <a href="biography-inspiration.html">Inspiration from Travels</a>
+          <a href="biography-photos.html">Photos</a>
+          <a href="biography-videos.html">Videos</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="exhibitions-ny.html">Exhibitions</a>
+        <div class="dropdown-content">
+          <a href="exhibitions-ny.html">NY</a>
+          <a href="exhibitions-barcelona.html">Barcelona</a>
+          <a href="exhibitions-roma.html">Roma</a>
+          <a href="exhibitions-milan.html">Milan</a>
+          <a href="exhibitions-others.html">Others</a>
+        </div>
+      </li>
+      <li><a href="acrylic.html">Acrylic Paintings</a></li>
+      <li><a href="aquarelle.html">Aquarelle Paintings</a></li>
+      <li><a href="asian.html">Asian Paintings</a></li>
+      <li><a href="other-creations.html">Other Creations</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </div>
+  <!-- Page Content -->
+  <div class="content">
+    <h1>Videos</h1>
+    <div class="video-container">
+      <!-- Example embedded video (replace with your video links) -->
+      <iframe src="https://www.youtube.com/embed/yourVideoID" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
